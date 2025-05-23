@@ -1,0 +1,23 @@
+# PyKeyEmu Requirements
+# This file lists the dependencies for PyKeyEmu development and testing
+
+# Core package has no runtime dependencies - uses only Python standard library
+
+# Development dependencies (install with: pip install -r requirements.txt)
+pytest>=6.0.0              # Testing framework
+pytest-cov>=2.10.0         # Coverage reporting
+black>=21.0.0              # Code formatting
+flake8>=3.8.0              # Linting
+mypy>=0.800                # Type checking
+
+# Documentation dependencies
+sphinx>=4.0.0              # Documentation generation
+sphinx-rtd-theme>=0.5.0    # Read the Docs theme
+
+# Optional: For advanced testing
+pytest-mock>=3.6.0         # Enhanced mocking
+pytest-xdist>=2.2.0        # Parallel test execution
+
+# Optional: For code quality
+isort>=5.9.0               # Import sorting
+bandit>=1.7.0              # Security linting
